@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="FC Barcode Generator Tool YHM1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FC Barcode Generator</title>
+    <link rel="shortcut icon" href="images/icon16.png" type="image/png" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.0/dist/JsBarcode.all.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Augus FC Tools Barcode Generator</h1>
+      <div class="input-section">
+        <div class="textarea-container">
+          <textarea
+            id="inputCodes"
+            rows="10"
+            placeholder="Enter your FC codes here, one per line"
+          >
+dz-P-DMG
+dz-P-A9999
+csXNS4tdS8S
+tsX0hdrr2if
+dz-P-StowBuffer_RSP1
+dz-P-RSP1-North-Zone1
+dz-P-RSP1-W-Putbacks
+dz-P-RSP1_OB_DMG
+dz-P-rsp1-VRCBuffer4
+dz-P-Non-Con-RSP1
+dz-P-Non-Con-Receive
+dz-P-HAZMAT_OUT</textarea
+          >
+        </div>
+        <div class="image-container">
+          <img src="images/YHM1256.png" alt="Image Example" id="exampleImage" />
+        </div>
+      </div>
+      <button onclick="generateBarcodes()">Generate Barcodes</button>
+      <div id="barcodeContainer"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
