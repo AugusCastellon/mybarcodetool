@@ -27,7 +27,7 @@ h1 {
 
 .textarea-container,
 .image-container {
-  width: 48%; /* Slightly less than 50% to account for spacing */
+  width: 45%; /* Slightly less than 50% to account for spacing */
 }
 
 textarea {
