@@ -26,8 +26,9 @@ h1 {
 }
 
 .textarea-container,
+.info-card,
 .image-container {
-  width: 45%; /* Slightly less than 50% to account for spacing */
+  width: 30%;
 }
 
 textarea {
@@ -84,4 +85,21 @@ button:hover {
   margin-top: 5px;
   font-size: 12px;
   word-break: break-all;
+}
+
+.info-card {
+  width: 25%;
+  background-color: #f8f9fa;
+  padding: 10px;
+  height: -5px;
+  border-radius: 4px;
+  border: 1px solid #dee2e6;
+}
+
+.info-card p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 0.8em;
+  line-height: 1.2;
+  color: #666;
 }
