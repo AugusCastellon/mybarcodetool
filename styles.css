@@ -138,7 +138,14 @@ button:hover {
     flex: 0 1 100%;
   }
 
+  .image-container {
+    display: flex;
+    justify-content: center;
+  }
 
+  #exampleImage {
+    width: auto;
+  }
 
   .barcode-item {
     flex: 0 1 100%;
